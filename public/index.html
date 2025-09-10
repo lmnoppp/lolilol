@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#56b2d5" />
+    <meta name="description" content="Marketing Intelligence Hub - Dashboard futuriste avec Agent IA" />
+    
+    <!-- League Spartan Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Cyber Grid Background CSS -->
+    <style>
+      body {
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        background-attachment: fixed;
+        font-family: 'League Spartan', sans-serif;
+      }
+      
+      .cyber-grid {
+        background-image: 
+          linear-gradient(rgba(86, 178, 213, 0.1) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(86, 178, 213, 0.1) 1px, transparent 1px);
+        background-size: 20px 20px;
+      }
+      
+      .neon-text {
+        color: #56b2d5;
+        text-shadow: 
+          0 0 5px #56b2d5,
+          0 0 10px #56b2d5,
+          0 0 15px #56b2d5;
+      }
+      
+      .glass-effect {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(86, 178, 213, 0.2);
+      }
+      
+      .cyber-border {
+        border: 1px solid #56b2d5;
+        box-shadow: 
+          0 0 10px rgba(86, 178, 213, 0.3),
+          inset 0 0 10px rgba(86, 178, 213, 0.1);
+      }
+      
+      /* Scrollbar styling */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: rgba(15, 23, 42, 0.5);
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: linear-gradient(to bottom, #56b2d5, #2563eb);
+        border-radius: 4px;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(to bottom, #5cc3fd, #56b2d5);
+      }
+    </style>
+    
+    <title>Marketing Intelligence Hub</title>
+  </head>
+  <body class="cyber-grid">
+    <noscript>Vous devez activer JavaScript pour utiliser cette application.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
